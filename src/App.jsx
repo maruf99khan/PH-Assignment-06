@@ -1,5 +1,4 @@
 
-import "./App.css";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -8,7 +7,6 @@ import Hero from "./components/Hero";
 import ProductsAndCart from "./components/ProductsAndCart";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
-import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 
 function App() {
@@ -65,7 +63,6 @@ function App() {
       />
       <Steps />
       <Pricing />
-      <CTA />
       <Footer />
     </>
   );
