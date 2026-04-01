@@ -31,7 +31,7 @@ export default function Hero() {
             <div className="bg-gradient-to-br from-purple-100 to-purple-50 rounded-lg h-48 sm:h-64 md:h-80 lg:h-96 flex items-center justify-center shadow-lg overflow-hidden">
               <img 
                 className="w-full h-full object-cover" 
-                src="./assets/banner.png" 
+                src={new URL('./assets/banner.png', import.meta.url).href} 
                 alt="Hero Banner"
               />
             </div>
