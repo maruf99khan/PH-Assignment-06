@@ -3,38 +3,37 @@ export default function Pricing() {
     {
       name: "Starter",
       price: "$0",
-      description: "Perfect for individuals",
+      description: "Perfect for getting started",
       features: [
         "Up to 3 tools",
         "Basic support",
-        "Cloud storage",
         "Community access"
       ]
     },
     {
-      name: "Premium",
-      price: "$99",
-      description: "For growing teams",
+      name: "Pro",
+      price: "$29",
+      description: "For most users",
       features: [
         "All 50+ tools",
         "Priority support",
-        "Unlimited storage",
-        "Team collaboration",
         "Advanced analytics",
-        "Custom integrations"
+        "Team collaboration",
+        "Custom integrations",
+        "Unlimited exports"
       ],
       highlighted: true
     },
     {
       name: "Enterprise",
-      price: "Custom",
-      description: "For large organizations",
+      price: "$99",
+      description: "For teams and orgs",
       features: [
-        "Everything in Premium",
+        "Everything in Pro",
         "Dedicated support",
-        "Custom contracts",
+        "Custom integrations",
         "SLA guarantees",
-        "Custom training"
+        "Advanced security"
       ]
     }
   ];
